@@ -1,0 +1,11 @@
+---
+server: #hook对应的服务器配置
+  host: 127.0.0.1 #服务器ip/域名
+  port: 8080 # 端口
+  secret: secret_token #密码
+
+release_server: #项目列表
+  project1: #项目1
+  - 127.0.0.1:9530 #对应的agent地址
+  project2:
+  - 127.0.0.1:9530
